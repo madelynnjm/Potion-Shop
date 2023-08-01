@@ -1,0 +1,47 @@
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  padding:5px;
+  display:flex;
+  background-color:lightgray;
+  align-items:center;
+  justify-content:space-between; 
+  height:50px;
+}
+
+#header-img{
+  width:50px;
+}
+
+#nav-bar{
+  display:flex;
+  width:50%;
+  max-width:450px;
+  justify-content:space-evenly;
+}
+
+body{
+  margin-top:50px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#video{
+  width:560;
+  height:315;
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 560px) {
+  #video{
+    width:280;
+    height:158;
+  }
+}
+
+
